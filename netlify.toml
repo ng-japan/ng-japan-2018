@@ -1,0 +1,26 @@
+[build]
+  base = "."
+
+  publish = "public/"
+
+  # Default build command.
+  command = "npm run build"
+
+# Default Locale
+
+[[redirects]]
+  from = "/"
+  to = "/ja/"
+  status = 302
+
+# SPA Fallbacks
+
+[[redirects]]
+  from = "/en/*"
+  to = "/en/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/ja/*"
+  to = "/ja/index.html"
+  status = 200
