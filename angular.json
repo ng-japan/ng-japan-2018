@@ -45,7 +45,7 @@
             },
             "ja": {
               "aot": true,
-              "outputPath": "public/2018/ja",
+              "outputPath": "public/ja",
               "baseHref": "/ja/",
               "i18nFile": "src/locale/messages.ja.xlf",
               "i18nFormat": "xlf",
